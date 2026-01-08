@@ -7,3 +7,6 @@ nest generate module messages
 nest generate controller messages/messages --flat # if you want to create controller folder just remove --flat
 
 # For generate a service
+# nest generate service <folder-<module-name>>/<module-name> --flat this flat is help to don't create service folder ex:
+nest generate service messages/messages --flat # if you want to create service folder just remove --flat
+
